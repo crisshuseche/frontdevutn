@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto - Criss Hurtado Useche</title>
+</head>
+
+<body>
+    <h1 id="title-form">Contacto</h1>
+    <p>Para conocer mas información de mi perfil por favor déjame tus datos de contacto: </p>
+
+    <form id="survey-contact">
+        <label for="name" id="name-label"><b>Nombre y apellidos: </b></label>
+        <input type="text" placeholder="Juana De Arco" size="30" required>
+        <br>
+        <br>
+
+        <label for="email" id="email-label"><b>Correo electrónico: </b></label>
+        <input type="email" placeholder="juanadearco@gmail.com" size="30" required>
+        <br>
+        <br>
+
+        <label for="telefono" id="telefono-label"><b>Número de telefóno: </b></label>
+        <input type="text" placeholder="+33825300500" required>
+        <br>
+        <br>
+
+        <label for="message" id="message-label"><b>Escribe tu mensaje: </b></label>
+        <textarea name="message" rows="5" cols="50" placeholder="Hola, me gustaría saber..." required></textarea>
+        <br>
+        <br>
+
+        <label for="contact" id="contact-label">
+            <h3>¿Por qué vía prefiere ser contactado?</h3>
+        </label>
+        <p>
+            <input type="radio" name="contact" id="email" value="email"> Correo electrónico
+            <br>
+
+            <input type="radio" name="contact" id="msj_texto" value="whatsapp"> Whatsapp
+            <br>
+
+            <input type="radio" name="contact" id="llamada" value="llamada"> Llamada telefonica
+            <br>
+        </p>
+        <p>
+        <input type="submit" id="submit" value="Enviar">
+        <input type="reset" id="reset" value="Borrar">
+        </p>
+    </form>
+
+</body>
+
+</html>
