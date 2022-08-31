@@ -1,0 +1,76 @@
+body{
+    display: block;
+    margin-left: 450px;
+    margin-right: 500px;
+    background-color: #F6F6F6;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    text-align: justify;
+}
+
+h1 {
+    color: #661B22;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+h3 {
+    color: #661B22;
+    margin-top: 0px;
+}
+
+.formulario {
+    background: #FFE5E5;
+    color: #661B22;
+    padding: 2.5rem 2.5rem;
+    border-radius: 0.25rem;
+    width: 450px;
+    
+}
+
+#message-label{
+    display: block;
+    margin-top: 10px;
+    width: 95%;
+    height: 5rem;
+    padding: 0.50rem 0.75rem;
+    background-color: #F6F6F6;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    text-align: justify;
+    
+}
+
+
+#submit{
+    position: relative;
+    background-color: #661B22;
+    color: #FFE5E5;
+    font-style: oblique;
+    width: 30%;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+
+}
+
+#reset{
+    position: relative;
+    background-color: #661B22;
+    color: #FFE5E5;
+    font-style: oblique;
+    width: 30%;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
