@@ -1,0 +1,28 @@
+body {
+    display: inline-flexbox;
+    background: white;
+}
+
+#pink {
+    display: inline-flex;
+    background: pink;
+    width: 10px;
+    height: 10px;
+    padding: 5%;
+}
+
+#purple {
+    display: inline-flex;
+    background: purple;
+    width: 10px;
+    height: 10px;
+    padding: 5%;
+}
+
+#peach {
+    display: inline-flex;
+    background: peachpuff;
+    width: 10px;
+    height: 10px;
+    padding: 5%;
+}

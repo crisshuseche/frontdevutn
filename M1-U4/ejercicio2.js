@@ -1,21 +1,18 @@
 'use strict'
 
-const numeros = [1, 2, 3, 4, 5];
+const numeros = [8, 44, 23, 85, 2, 5];
 //console.log(numeros);
 //document.write(numeros);
 
-for(let i = 0; i < numeros.length; i++){
-    //console.log("tenemos el numero " + numeros[i]);
-    //document.write("Tenemos el numero" + "<li>" + numeros[i] +"</li>");
+let mayor = 0;
 
-    let valor = numeros.length;
-   if (valor >= [i]){
-        console.log("el numero mayor es: " + valor);
-        document.write("el numero mayor es: " + valor +"</br>");
-    
-    }else{
-        alert("Hay un error");
-    };
+for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] > mayor) {
+        mayor = numeros[i];
+    }
 };
+
+console.log(`El numero mayor de ${numeros} es ${mayor}`);
+document.write(`El numero mayor de ${numeros} es ${mayor}`);
 
 
